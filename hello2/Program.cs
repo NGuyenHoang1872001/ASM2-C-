@@ -38,6 +38,7 @@ namespace hello2
         }
         static void Main(string[] args)
         {
+            string drinkName = "";
             // enter user'money
             int userMoney = int.Parse(Console.ReadLine()); // user'Money : 100$
             int userChoice = getUserChoice();
@@ -47,27 +48,32 @@ namespace hello2
             drinks.Add(new Drink("AQUAFINA", 5));
             drinks.Add(new Drink("COCA", 7));
             drinks.Add(new Drink("SPRITE", 7));
-
+            /*
             foreach (var drink in drinks)
             {
                 Console.WriteLine("drink name: {0}, drink price: {1}", drink.name, drink.price);
             }
-            Console.ReadLine();
+            */
+
             switch (userChoice)
             {
                 case 1:
-                   int  amount = getAmount();
+                    drinkName = "AQUAFINA";
+                    Drink result = drinks.Find(x => x.name == drinkName);
+                    Console.WriteLine("drink name: {0}, drink price: {1}", result.name, result.price);
+                    //int  amount = getAmount();
                     break;
+                /*
                 case 2: break;
                 case 3: break;
                 case 4: break;
                 case 5: break;
                 case 6: break;
                 case 7: break;
+                 */
                 default:
                     break;
             }
-
             
         }
     }
