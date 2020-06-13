@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4dolPdDw/w2s9n0VCNeVwBdfuLNOnrdcHVxCBO0LHIiMah17DzjIC1DwuARltepEo/mQQ1MKMJSjy/SzFrXA5w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nguye\\OneDrive\\Desktop\\hello2\\hello2\\hello2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nguye\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
